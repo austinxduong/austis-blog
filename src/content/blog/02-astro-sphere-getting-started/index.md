@@ -18,7 +18,7 @@ configuring the site and make it personal.
 //astro.config.mjs
 
 export default defineConfig({
-  site: "austis-blog.vercel.app", // your domain here
+  site: "https://austis-blog.vercel.app", // your domain here
   integrations: [mdx(), sitemap(), solidJs(), tailwind({ applyBaseStyles: false })],
 })
 ```
