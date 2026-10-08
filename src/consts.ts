@@ -1,29 +1,26 @@
-import type { Site, Page, Links, Socials } from "@types"
+import type { Site, Page, Links, Socials, Metadata } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "Astro Sphere",
-  DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
-  AUTHOR: "Mark Horn",
-}
+  TITLE: "Austin's Engineering Blog",
+  DESCRIPTION: "Articles and breakdowns on software engineering, data structures, and computer science algorithms.",
+  AUTHOR: "Austin",
+};
 
-// Work Page
-export const WORK: Page = {
+export const WORK: Metadata = {
   TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
-}
+  DESCRIPTION: "Software development experience and engineering history.",
+};
 
-// Blog Page
-export const BLOG: Page = {
+export const BLOG: Metadata = {
   TITLE: "Blog",
-  DESCRIPTION: "Writing on topics I am passionate about.",
-}
+  DESCRIPTION: "Deep dives into algorithms, data structures, and software architecture.",
+};
 
-// Projects Page 
-export const PROJECTS: Page = {
+export const PROJECTS: Metadata = {
   TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
-}
+  DESCRIPTION: "Full-stack web applications, spatial tools, and open-source software.",
+};
 
 // Search Page
 export const SEARCH: Page = {
@@ -56,26 +53,20 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Email",
     ICON: "email", 
-    TEXT: "markhorn.dev@gmail.com",
-    HREF: "mailto:markhorn.dev@gmail.com",
+    TEXT: "austinxduong@gmail.com",
+    HREF: "mailto:austinxduong@gmail.com",
   },
   { 
     NAME: "Github",
     ICON: "github",
-    TEXT: "markhorn-dev",
-    HREF: "https://github.com/markhorn-dev/astro-sphere"
+    TEXT: "austinxduong",
+    HREF: "https://github.com/austinxduong"
   },
   { 
     NAME: "LinkedIn",
     ICON: "linkedin",
-    TEXT: "markhorn-dev",
-    HREF: "https://www.linkedin.com/in/markhorn-dev/",
-  },
-  { 
-    NAME: "Twitter",
-    ICON: "twitter-x",
-    TEXT: "markhorn_dev",
-    HREF: "https://twitter.com/markhorn_dev",
+    TEXT: "Austin X. Duong",
+    HREF: "https://www.linkedin.com/in/austinxduong/",
   },
 ]
 
