@@ -1,4 +1,4 @@
-import type { Site, Page, Links, Socials, Metadata } from "@types"
+import type { Site, Page, Links, Socials, } from "@types"
 
 // Global
 export const SITE: Site = {
@@ -7,17 +7,17 @@ export const SITE: Site = {
   AUTHOR: "Austin",
 };
 
-export const WORK: Metadata = {
+export const WORK: Page = {
   TITLE: "Work",
   DESCRIPTION: "Software development experience and engineering history.",
 };
 
-export const BLOG: Metadata = {
+export const BLOG: Page = {
   TITLE: "Blog",
   DESCRIPTION: "Deep dives into algorithms, data structures, and software architecture.",
 };
 
-export const PROJECTS: Metadata = {
+export const PROJECTS: Page = {
   TITLE: "Projects",
   DESCRIPTION: "Full-stack web applications, spatial tools, and open-source software.",
 };
